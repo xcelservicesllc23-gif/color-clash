@@ -1,4 +1,4 @@
-const express = require("express");app.use(express.static('public'));const express = require('express');
+const express = require("express");
 const http = require("http");
 const WebSocket = require("ws");
 const crypto = require("crypto");
@@ -14,7 +14,7 @@ const rooms = new Map();
 const COLORS = [
   { name: "RED", hex: "#ff496c" }, { name: "BLUE", hex: "#42a5ff" },
   { name: "GREEN", hex: "#3ddc97" }, { name: "YELLOW", hex: "#ffd34e" },
-  { name: "PURPLE", hex: "#b77bff" }, { name: "ORANGE", app.use(express.static('public'));hex: "#ff974d" }
+  { name: "PURPLE", hex: "#b77bff" }, { name: "ORANGE", hex: "#ff974d" }
 ];
 const POWERUPS = ["HINT", "TIME FREEZE", "DOUBLE POINTS"];
 
