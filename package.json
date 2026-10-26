@@ -1,0 +1,16 @@
+{
+  "name": "color-clash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time 2-8 player Color Clash party game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
